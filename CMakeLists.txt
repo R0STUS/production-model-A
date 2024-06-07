@@ -12,7 +12,7 @@ endif()
 project ("AI-A")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (AI-A "main.cpp" "main.h")
+add_executable (AI-A "src/main.cpp" "src/main.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET To-CMake PROPERTY CXX_STANDARD 20)
