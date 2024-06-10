@@ -15,7 +15,7 @@ project ("AI-A")
 add_executable (AI-A "src/main.cpp" "src/main.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET To-CMake PROPERTY CXX_STANDARD 20)
+  set_property(TARGET AI-A PROPERTY CXX_STANDARD 20)
 endif()
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
